@@ -3,13 +3,19 @@ pipeline {
   
           stages {
               stage('Build') {
-                  echo "in build stage"
+                    steps {
+                        echo "in build stage"
+                    }
               }
               stage('Test') {
-                  input("shall we proceed")
+                    steps {
+                        input("shall we proceed")
+                    }
               }
               stage('Deploy') {
-                  echo "successfully deployed"
+                    steps {
+                        echo "successfully deployed"
+                    }
               }
           }
    }

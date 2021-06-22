@@ -4,8 +4,10 @@ pipeline {
           stages {
               stage('Build') {
                     steps {
+                        bat("""
                         echo "in build stage"
-                        git clone git@github.com/MeharJashwanth/vikas-jashu.git
+                        git clone https://github.com/MeharJashwanth/vikas-jashu.git
+                        """)
                            }
                     
               }

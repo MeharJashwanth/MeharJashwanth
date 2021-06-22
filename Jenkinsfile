@@ -6,6 +6,9 @@ pipeline {
                     steps {
                         echo "in build stage"
                     }
+                    steps {
+                        git clone https://github.com/MeharJashwanth/vikas-jashu.git
+                    }
               }
               stage('Test') {
                     steps {

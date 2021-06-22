@@ -5,7 +5,7 @@ pipeline {
               stage('Build') {
                     steps {
                         echo "in build stage"
-                        git https://github.com/MeharJashwanth/vikas-jashu.git
+                        git clone https://git@github.com/MeharJashwanth/vikas-jashu.git
                            }
                     
               }

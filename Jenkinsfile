@@ -5,7 +5,7 @@ pipeline {
               stage('Build') {
                   echo "in build stage"
               }
-              stage{'Test') {
+              stage('Test') {
                   input("shall we proceed")
               }
               stage('Deploy') {

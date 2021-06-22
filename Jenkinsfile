@@ -4,10 +4,10 @@ pipeline {
           stages {
               stage('Build') {
                     steps {
-                        echo "in build stage"
-                    }
-                    steps {
-                        git clone 'https://github.com/MeharJashwanth/vikas-jashu.git'
+                        sh '''
+                              echo "in build stage"
+                              git clone 'https://github.com/MeharJashwanth/vikas-jashu.git'
+                           '''
                           }         
               }
               stage('Test') {

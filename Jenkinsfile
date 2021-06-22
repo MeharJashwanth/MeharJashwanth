@@ -4,7 +4,7 @@ pipeline {
           stages {
               stage('Build') {
                     steps {
-                        bat("""
+                        bash("""
                         echo "in build stage"
                         git clone https://github.com/MeharJashwanth/vikas-jashu.git
                         """)

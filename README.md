@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MeharJashwanth
-- 👀 I’m interested in ... AWS
-- 🌱 I’m currently learning ...Jenkins, Hadoop, Apache Spark
+- 👀 I’m interested in ... AWS-DevOps
+- 🌱 I’m currently learning ...Jenkins, Ansible, Docker, Kubernetes
 - 💞️ I’m looking to collaborate on ...Projects
 - 📫 How to reach me ...
 
